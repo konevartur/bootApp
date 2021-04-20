@@ -1,0 +1,467 @@
+/* header 
+==========================*/
+.navbar {
+	background-color: #000;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgb(118, 118, 118);
+}
+
+.btn-outline-dark {
+    color: #fff;
+	border-color:#fff;
+}
+
+.btn-outline-dark:hover {
+	border-color:#fff;
+	background-color: rgb(49, 49, 49);
+}
+
+
+/* hero 
+==========================*/
+#hero {
+	width: 100%;
+	min-height: 800px;
+	background: url(https://s1.1zoom.me/b5050/401/Stones_Sculptures_Chile_Easter_island_Moai_576444_3840x2400.jpg) fixed center center;
+	background-size: cover;
+	position: relative;
+}
+
+#hero:before {
+	content: "";
+	background: rgba(0, 0, 0, .8);
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+#hero .container {
+	position: relative;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+#hero h1{
+	margin: 0;
+	font-family: "Poppins", sans-serif;
+	font-size: 56px;
+	font-weight: 700;
+	line-height: 64px;
+	color: #fff;
+}
+
+#hero h2 {
+	margin: 10px 0 0 0;
+	font-size: 24px;
+	color: #fff;
+}
+
+#hero .icon-box h3 {
+	margin-top: 10px;
+	padding: 0;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 26px;
+}
+
+#hero .icon-box h3 a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#hero .icon-box h3 a:hover {
+	color: #e9c46a
+}
+
+.icon-box {
+	height: 100%;
+	padding: 30px 20px;
+	border: 1px solid rgba(255, 255, 255, .3);
+	text-align: center;
+	cursor: pointer;
+}
+
+.icon-box:hover {
+	border-color: #e9c46a;
+	transform: scale(1.1);
+	transition: all linear 0.4s;
+}
+
+
+/* about 
+==========================*/
+.about ul li {
+	list-style-type: none;
+}
+
+
+/* call
+==========================*/
+.call {
+	padding: 80px 0;
+	background: linear-gradient(rgba(2, 2, 2, .5), rgba(2, 2, 2, .8)), url(https://s1.1zoom.me/b5050/401/Stones_Sculptures_Chile_Easter_island_Moai_576444_3840x2400.jpg) fixed center center;
+	color: #fff;
+}
+
+.call h3 {
+	font-weight: bold;
+	font-size: 28px;
+}
+
+.call-btn {
+	margin-top: 10px;
+	padding: 8px 28px;
+	
+	font-weight: 600;
+	font-size: 16px;
+	letter-spacing: 1px;
+	display: inline-block;
+
+	border: 2px solid #e9c46a;
+	border-radius: 4px;
+
+	color: #fff;
+
+	text-decoration: none;
+} 
+
+.call-btn:hover {
+	color: #e9c46a;
+	transform: scale(1.1);
+	transition: all linear 0.4s;
+}
+
+
+/* blogCarousel
+==========================*/
+#blogCarousel {
+	padding: 40px 0 40px 0;
+}
+
+
+#blogCarousel h3 {
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.containerMy {
+	margin: 0 auto;
+	max-width: 1000px;
+	max-height: 800px;
+}
+
+
+/* team
+==========================*/
+.team .member {
+	margin-bottom: 20px;
+
+	overflow: hidden;
+  border-radius: 5px;
+	box-shadow: 0px 2px 15px rgba(0, 0, 0, .5);
+}
+
+.team .member:hover {
+	color: #e9c46a;
+	transform: scale(1.1);
+	transition: all linear 0.4s;
+	cursor: pointer;
+}
+
+.team .member .member-img {
+	position: relative;
+	overflow: hidden;
+}
+
+.team .member .member-info {
+	padding: 25px 15px;
+}
+
+.team .member .member-info h4 {
+	margin-bottom: 5px;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.team .member .member-info span {
+	font-size: 14px;
+	font-style: italic;
+	line-height: 26px;
+	color: #777777;
+}
+
+.card-img-top {
+	width: 100%;
+	height: 250px;
+	object-fit: contain;
+}
+
+.social {
+	margin-bottom: 10px;
+}
+
+.social a {
+	color: #8d99ae;
+	text-decoration: none;
+	font-size: 30px;
+	margin-right: 20px;
+}
+
+.social a:last-child {
+	margin-right: 0;
+}
+
+.social a:hover {
+	color: #e9c46a;
+}
+
+
+/* services
+==========================*/
+.services {
+	padding: 40px 0 40px 0;
+	text-align: center;
+}
+
+.services .icon-box {
+	padding: 80px 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	transition: all ease-in-out .3;
+	background: #ccc;
+}
+
+.services .icon-box:hover {
+	box-shadow: 0 0 10px rgba(0, 0, 0, .8);
+	transform: scale(1.1);
+	transition: all linear 0.4s;
+	cursor: pointer;
+}
+
+.services .icon-box .icon {
+	width: 64px;
+	height: 64px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	margin: 0 auto;
+	margin-bottom: 20px;
+	
+	background: #e9c46a;
+	border-radius: 5px;
+
+	transition: .3;
+}
+
+.services .icon-box h4 {
+	margin-bottom: 15px;
+	font-weight: 700;
+	font-size: 24px;
+}
+
+.services .icon-box p {
+	margin-bottom: 0;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.section-title p{
+	margin-bottom: 20px;
+}
+
+
+/* contacts
+==========================*/
+.contacts {
+	padding: 40px 0 40px 0;
+}
+
+.contacts .info .info-icon {
+	width: 44px;
+	height: 44px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	float: left;
+
+	background: #e9c46a;
+	border-radius: 4px;
+
+	font-size: 20px;
+}
+
+.fa-location-arrow:before {
+	font-size: 23px;
+}
+
+.fa-mobile:before {
+	font-size: 30px;
+}
+
+.contacts .info h4 {
+	margin: 0;
+	padding: 0 0 0 60px;
+}
+
+.contacts .info p {
+	padding: 0 0 0 60px;
+	font-size: 12px;
+}
+
+
+
+/* footer
+==========================*/
+.footer-top {
+	padding: 60px 0 30px 0;
+	background: #151515;
+	color: #fff;
+	border-bottom: 1px solid #222;
+}
+
+.footer-top .footer-info {
+	margin-bottom: 3px;
+}
+
+.footer-top .footer-info h3 {
+	padding: 2px 0 2px 0;
+
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 1;
+	text-transform: uppercase;
+}
+
+.footer-top .footer-info p {
+	margin-bottom: 0;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.footer-top h4 {
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.footer-links {
+	margin-bottom: 30px;
+
+}
+
+.footer-links ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.footer-links li {
+	display: flex;
+	align-items: center;
+	padding: 10px 0;
+	color: #e9c46a;
+}
+
+.footer-links a {
+	margin-left: 10px;
+	text-decoration: none;
+	color: #fff;
+}
+
+.footer-links a:hover{
+	color: #e9c46a;
+}
+
+.footer-newsletter p {
+	font-size: 14px;
+}
+
+.footer-newsletter form {
+	border-radius: 4px;
+}
+
+.footer-newsletter input{
+	margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
